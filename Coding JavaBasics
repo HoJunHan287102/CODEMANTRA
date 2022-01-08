@@ -1,0 +1,35 @@
+package codemantra;
+
+public class JavaBasics {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Create an array of String data type that consists of your full name. e.g. Mazuqi (index 0)
+		//Adha (index 1). After that printout all element in an array using loop
+		System.out.println("Question 1");
+		String name[] = {"Mazuqi", "Adha", "Ho Jun Han", "Ali"};
+		for(int i=0; i < name.length; i++)
+			System.out.println(name[i]);
+		System.out.print("\n");
+		
+		//Create a variable with the name myAge=15, theirAge=20.
+		//print out “I am older” if myAge > theirAge and print out “I am younger” if myAge < theirAge
+		System.out.println("Question 2");
+		int myAge1 = 20;
+		int theirAge1 = 15;	
+		int myAge2 = 15;
+		int theirAge2 = 20;	
+		
+		if (myAge1 > theirAge1)
+			System.out.println("I am older");
+		else
+			System.out.println("I am younger");
+			
+		if (myAge2 < theirAge2)
+			System.out.println("I am younger");
+		else
+			System.out.println("I am older");
+	}
+
+}
